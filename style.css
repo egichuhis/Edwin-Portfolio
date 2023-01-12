@@ -59,10 +59,13 @@
   gap: 12px;
   position: absolute;
   width: 375px;
-  height: 590px;
+  height: 500px;
   left: 0;
   top: 92px;
-  background: #1c1a19;
+  background-color: #1c1a19;
+  background-image: url(./imgs/Group.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .headline .primary {
@@ -130,6 +133,7 @@
 }
 
 .headline .socials li i {
-  font-size: 24px;
-  margin-right: 10px;
+  font-size: 20px;
+  margin-right: 12px;
+  color: #fff;
 }
