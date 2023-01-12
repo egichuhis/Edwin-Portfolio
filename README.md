@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
   <h3><b>Edwin Gichuhi's Portfolio</b></h3>
