@@ -2,7 +2,6 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Edwin Gichuhi's Portfolio</b></h3>
@@ -14,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello Microverse Project ](#-hello-microverse-project-)
+- [📖 Edwin Gichuhi's Portfolio ](#-edwin-gichuhis-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
   - [💻 Getting Started ](#-getting-started-)
@@ -30,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse Project <a name="about-project"></a>
+# 📖 Edwin Gichuhi's Portfolio <a name="about-project"></a>
 
 **Edwin Gichuhi's Portfolio** is a simple project to learn and test my knowledge in GitHub flow and Linters.
 
@@ -132,3 +131,6 @@ If you like this project, please give it a star
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+
+[def]: #-built-with-
