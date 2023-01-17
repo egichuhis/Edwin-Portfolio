@@ -274,6 +274,24 @@
   flex-grow: 0;
 }
 
+.right-block .see-project-btn span {
+  width: 100px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .recent-works .frame-44 .right-block .tech-skills .css span {
   width: 25px;
   height: 20px;
@@ -364,7 +382,7 @@
 .recent-works .frame-44 .right-block .tech-skills .ruby span {
   width: 37px;
   height: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -374,3 +392,103 @@
   order: 0;
   flex-grow: 0;
 }
+
+.right-block .see-project-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+}
+
+.frame-43 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  gap: 24px;
+  width: 375px;
+  height: 2436px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.card-works-1 {
+  width: 327px;
+  height: 386px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.action {
+  position: absolute;
+  height: 48px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.action .see-project-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 124px;
+  height: 48px;
+  left: calc(50% - 124px / 2);
+  top: calc(50% - 48px / 2);
+  background: #ff6b00;
+}
+
+.action .see-project-btn span {
+  width: 100px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.action .action-bar {
+  position: absolute;
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  background: #ff6b00;
+}
+
+.card-works-1 .right-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 12px;
+  position: absolute;
+  width: 327px;
+  height: 248px;
+  left: calc(50% - 327px / 2);
+  bottom: 62px;
+}
+
+
