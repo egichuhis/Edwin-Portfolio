@@ -428,6 +428,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-bottom: 25px;
 }
 
 .mask-group {
@@ -492,6 +493,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   width: 56px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
@@ -504,6 +506,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+    justify-content: center;
   width: 95px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
@@ -516,6 +519,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+    justify-content: center;
   width: 61px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
@@ -572,6 +576,10 @@
   width: 327px;
   background: #ff6b00;
   justify-content: center;
+}
+
+.frame-43 .card .action a {
+  text-decoration: none;
 }
 
 .frame-43 .card .action button {
