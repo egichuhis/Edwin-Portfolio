@@ -421,7 +421,7 @@
   flex-grow: 0;
 }
 
-.card-works-1 {
+.card {
   width: 327px;
   height: 386px;
   flex: none;
@@ -429,15 +429,162 @@
   flex-grow: 0;
 }
 
-.action {
+.mask-group {
+  position: absolute;
+  width: 327px;
+  height: 386px;
+  left: 0;
+  top: 0;
+  background: url(./imgs/MaskGroup.png);
+}
+
+.frame-43 .right-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 12px;
+  position: absolute;
+  width: 327px;
+  height: 248px;
+  left: calc(50% - 327px / 2);
+  bottom: 62px;
+}
+
+.frame-43 .title {
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-43 .description {
+  width: 295px;
+  height: 87px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-43 .tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 236px;
+  height: 40px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame-43 .tags .html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 56px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-43 .tags .bootstrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 95px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-43 .tags .ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 61px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame-43 .tags .html span {
+  width: 32px;
+  height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-43 .tags .bootstrap span {
+  width: 71px;
+  height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-43 .tags .ruby span {
+  width: 37px;
+  height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-43 .action {
   position: absolute;
   height: 48px;
   left: 0;
   right: 0;
   bottom: 0;
+  width: 327px;
+  height: 48px;
+  background: #ff6b00;
 }
 
-.action .see-project-btn {
+.frame-43 .action button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -451,10 +598,10 @@
   background: #ff6b00;
 }
 
-.action .see-project-btn span {
+.frame-43 .action button span {
   width: 100px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -468,27 +615,3 @@
   order: 0;
   flex-grow: 0;
 }
-
-.action .action-bar {
-  position: absolute;
-  width: 327px;
-  height: 48px;
-  left: 0;
-  top: 0;
-  background: #ff6b00;
-}
-
-.card-works-1 .right-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 8px 16px;
-  gap: 12px;
-  position: absolute;
-  width: 327px;
-  height: 248px;
-  left: calc(50% - 327px / 2);
-  bottom: 62px;
-}
-
-
