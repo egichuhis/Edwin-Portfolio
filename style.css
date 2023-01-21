@@ -614,7 +614,7 @@
 .about-me-section {
   position: absolute;
   width: 375px;
-  height: 1901px;
+  height: 2260px;
   left: 0;
   top: 4437px;
   background: #1c1a19;
@@ -694,6 +694,629 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about-skill-hr {
+  border: 1px solid #fff;
+  width: 327px;
+  margin-top: -80px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 24px;
+  width: 329px;
+  height: 1241.46px;
+  left: calc(50% - 329px / 2);
+}
+
+.frame-35 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 225.46px;
+  height: 281.46px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-30 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 225.46px;
+  height: 41.46px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-30 img {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  transform: rotate(-45deg);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-30 h3 {
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-29 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 4px;
+  width: 186px;
+  height: 272px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  list-style: none;
+}
+
+.frame-29 .javascript {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .javascript h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-29 .ruby h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame-29 .html h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .css {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.frame-29 .css h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-34 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 281px;
+  height: 336px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 90px;
+}
+
+.frame-31 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 281px;
+  height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-31 img {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-31 h3 {
+  width: 227px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-29 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+  width: 186px;
+  height: 272px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  list-style: none;
+}
+
+.frame-29 .bootstrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .bootstrap h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .rails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 162px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-29 .rails h3 {
+  width: 162px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .rspec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame-29 .rspec h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .capybara {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.frame-29 .capybara h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-29 .selenium {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.frame-29 .selenium h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-33 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 169px;
+  height: 336px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-top: 140px;
+}
+
+.frame-32 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 169px;
+  height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-32 img {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  border-radius: 150px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-32 h3 {
+  width: 115px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-28 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+  width: 138px;
+  height: 272px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  list-style: none;
+}
+
+.frame-28 .codekit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-28 .codekit h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-28 .github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-28 .github h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-28 .codepen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame-28 .codepen h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-28 .gitlab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.frame-28 .gitlab h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-28 .terminal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.frame-28 .terminal h3 {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   color: #fff;
   flex: none;
   order: 0;
