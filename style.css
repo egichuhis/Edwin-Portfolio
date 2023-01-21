@@ -584,12 +584,10 @@
 }
 
 .frame-44 .right-block .see-project-btn:hover {
-  background: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
-
-
 
 .frame-43 {
   display: flex;
@@ -697,9 +695,9 @@
 }
 
 .about button:hover {
-  background: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .frame-43 .card .action button {
@@ -715,9 +713,9 @@
 }
 
 .frame-43 .card .action button:hover {
-  background: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .about-me-section {
