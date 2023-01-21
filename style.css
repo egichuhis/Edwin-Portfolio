@@ -588,6 +588,12 @@
   color: #f55800;
 }
 
+.frame-44 .right-block .see-project-btn:active {
+  background: #e05304;
+  border: none;
+  color: #fff;
+}
+
 .frame-43 {
   display: flex;
   flex-direction: column;
@@ -699,6 +705,12 @@
   color: #f55800;
 }
 
+.about button:active {
+  background: #e05304;
+  border: none;
+  color: #fff;
+}
+
 .frame-43 .card .action button {
   display: flex;
   align-items: center;
@@ -715,6 +727,12 @@
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+}
+
+.frame-43 .card .action button:active {
+  background: #e05304;
+  border: none;
+  color: #fff;
 }
 
 .about-me-section {
