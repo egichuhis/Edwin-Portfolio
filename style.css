@@ -139,8 +139,8 @@
 }
 
 .recent-works {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1;
   align-items: center;
   padding: 120px 0;
   gap: 80px;
@@ -156,12 +156,12 @@
   flex-direction: column;
   align-items: center;
   padding: 0;
-  gap: 24px;
   width: 327px;
   height: 107px;
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-left: 15px;
 }
 
 .recent-works .title-container h2 {
@@ -723,7 +723,7 @@
   width: 375px;
   height: 2260px;
   left: 0;
-  top: 4437px;
+  top: 4637px;
   background: #1c1a19;
 }
 
