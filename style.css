@@ -1408,7 +1408,10 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  text-align: center;
+}
+
+.name-div input {
+  border: none;
 }
 
 .email-div {
@@ -1418,3 +1421,21 @@
   order: 1;
   flex-grow: 0;
 }
+
+.email-div input {
+  border: none;
+}
+
+.message-div {
+  width: 327px;
+  height: 114px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.message-div textarea {
+  border: none;
+  background: #fbf8f7;
+}
+
