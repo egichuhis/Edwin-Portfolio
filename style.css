@@ -1347,3 +1347,44 @@
   order: 0;
   flex-grow: 0;
 }
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 375px;
+  height: 844px;
+  left: 0;
+  top: 6838px;
+}
+
+.form-intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 327px;
+  height: 216px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.form-intro-container p {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
