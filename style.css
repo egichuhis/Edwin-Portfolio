@@ -1471,3 +1471,15 @@
   order: 0;
   flex-grow: 0;
 }
+
+.bottom-nav {
+  display: flex;
+  position: absolute;
+  width: 375px;
+  height: 72px;
+  left: 0;
+  top: 7845px;
+  border-top: 1px solid #dfe1e6;
+}
+
+
