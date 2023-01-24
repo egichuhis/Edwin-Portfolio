@@ -132,6 +132,10 @@
   color: #fff;
 }
 
+.social-icons li i {
+  color: #505f79;
+}
+
 .headline .socials li i {
   font-size: 20px;
   margin-right: 12px;
@@ -714,6 +718,21 @@
   color: #fff;
 }
 
+.form-section button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+}
+
 .about button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
@@ -913,6 +932,24 @@
   color: #fff;
   flex: none;
   order: 1;
+  flex-grow: 0;
+}
+
+.form-section button h3 {
+  width: 107px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
   flex-grow: 0;
 }
 
@@ -1439,47 +1476,30 @@
   background: #fbf8f7;
 }
 
-.form-section button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 131px;
-  height: 48px;
-  background: #ff6b00;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  border: none;
-}
-
-.form-section button h3 {
-  width: 107px;
-  height: 24px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
 .bottom-nav {
   display: flex;
   position: absolute;
   width: 375px;
   height: 72px;
   left: 0;
-  top: 7845px;
+  top: 7825px;
   border-top: 1px solid #dfe1e6;
 }
 
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: calc(50% - 200px / 2 + 0.5px);
+  top: calc(50% - 80px / 2);
+  list-style: none;
+}
 
+.social-icons li {
+  font-size: 23px;
+  margin-left: 18px;
+}
