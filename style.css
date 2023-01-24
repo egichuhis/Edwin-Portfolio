@@ -306,6 +306,21 @@
   flex-grow: 0;
 }
 
+.form-intro-container p {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .recent-works .frame-44 .right-block p {
   width: 327px;
   height: 147px;
@@ -1374,17 +1389,32 @@
   flex-grow: 0;
 }
 
-.form-intro-container p {
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
   width: 327px;
-  height: 216px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
+  height: 330px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.name-div {
+  width: 327px;
+  height: 48px;
   flex: none;
   order: 0;
+  flex-grow: 0;
+  text-align: center;
+}
+
+.email-div {
+  width: 327px;
+  height: 48px;
+  flex: none;
+  order: 1;
   flex-grow: 0;
 }
