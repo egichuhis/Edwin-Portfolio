@@ -1516,6 +1516,7 @@
   .menu-bar {
     display: flex;
     width: fit-content;
+    right: 120px;
   }
 
   .menu-bar img {
@@ -1529,7 +1530,7 @@
 
   .nav-menu li {
     color: #fff;
-    margin-right: 40px;
+    margin-left: 80px;
   }
 
   .nav-menu li a {
@@ -1540,5 +1541,9 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .headline {
+    width: 100vw;
   }
 }
