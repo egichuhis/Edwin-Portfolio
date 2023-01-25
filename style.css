@@ -8,6 +8,10 @@
   background: #3c3a39;
 }
 
+.nav-menu {
+  display: none;
+}
+
 .logo-container {
   display: flex;
   flex-direction: row;
@@ -37,7 +41,7 @@
   flex-grow: 0;
 }
 
-.menu-btn {
+.menu-bar {
   display: flex;
   flex-direction: row;
   padding: 8px;
@@ -1506,5 +1510,17 @@
 
 
 @media only screen and (min-width: 768px) {
-  
+  .toolbar {
+    width: 100vw;
+  }
+
+  .menu-bar img {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    list-style-type: none;
+    
+  }
 }
