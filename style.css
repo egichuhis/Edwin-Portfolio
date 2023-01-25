@@ -1548,7 +1548,6 @@
     height: 609px;
     flex-direction: row;
     background-image: url(./imgs/GroupBig.svg);
-    
   }
 
   .headline-text {
@@ -1562,7 +1561,6 @@
     left: 143px;
     top: 72px;
   }
-
 
   .headline .socials ul {
     flex-direction: column;
@@ -1614,6 +1612,56 @@
     color: #f4f5f7;
     flex: none;
     order: 2;
+    flex-grow: 0;
+  }
+
+  .recent-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 24px;
+    gap: 114px;
+    position: absolute;
+    width: 100vw;
+    height: 1805px;
+    top: 875px;
+  }
+
+  .recent-works .title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    width: 1133px;
+    height: 52px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .recent-works .title-container h2 {
+    width: 315px;
+    height: 52px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .recent-works .title-container hr {
+    width: 794px;
+    height: 0;
+    border: 1px solid #212121;
+    flex: none;
+    order: 1;
     flex-grow: 0;
   }
 }
