@@ -1508,10 +1508,14 @@
   margin-left: 18px;
 }
 
-
 @media only screen and (min-width: 768px) {
   .toolbar {
     width: 100vw;
+  }
+
+  .menu-bar {
+    display: flex;
+    width: fit-content;
   }
 
   .menu-bar img {
@@ -1521,6 +1525,20 @@
   .nav-menu {
     display: flex;
     list-style-type: none;
-    
+  }
+
+  .nav-menu li {
+    color: #fff;
+    margin-right: 40px;
+  }
+
+  .nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
   }
 }
