@@ -1545,5 +1545,75 @@
 
   .headline {
     width: 100vw;
+    height: 609px;
+    flex-direction: row;
+    background-image: url(./imgs/GroupBig.svg);
+    
+  }
+
+  .headline-text {
+    order: 1;
+    align-items: center;
+    padding: 102px 0;
+    gap: 24px;
+    position: absolute;
+    width: 566px;
+    height: 739px;
+    left: 143px;
+    top: 72px;
+  }
+
+
+  .headline .socials ul {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .headline .socials li i {
+    font-size: 24px;
+  }
+
+  .headline .primary {
+    width: 566px;
+    height: 160px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .headline .supporting {
+    width: 566px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .headline .description {
+    width: 566px;
+    height: 123px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
   }
 }
