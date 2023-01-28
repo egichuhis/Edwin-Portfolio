@@ -168,13 +168,12 @@
   display: grid;
   grid-template-columns: 1;
   align-items: center;
-  padding: 120px 0;
-  gap: 80px;
+  padding: 0 0;
   position: absolute;
   width: 375px;
   height: 3455px;
   left: 0;
-  top: 682px;
+  top: 600px;
 }
 
 .recent-works .title-container {
@@ -187,7 +186,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: 15px;
+  margin: auto;
 }
 
 .recent-works .title-container h2 {
@@ -682,6 +681,7 @@
 
 .frame-43 .description {
   padding-left: 15px;
+   padding-top: 100px;
   width: 295px;
   height: 87px;
   font-family: 'Inter', sans-serif;
@@ -697,6 +697,7 @@
 
 .frame-43 .tags {
   padding-left: 15px;
+   padding-top: 120px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -809,10 +810,10 @@
 
 .about-me-section {
   position: absolute;
-  width: 375px;
+  width: fit-content;
   height: 2260px;
   left: 0;
-  top: 4637px;
+  top: 4400px;
   background: #1c1a19;
 }
 
@@ -820,14 +821,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
+  padding: 120px 32px;
   gap: 24px;
-  width: 375px;
+  width: fit-content;
   height: 563px;
   left: 0;
   background-image: url(./imgs/Group.png);
   background-repeat: no-repeat;
-  background-position: 82% 78%;
+  background-position: 100% 98%;
 }
 
 .about .title {
@@ -862,7 +863,6 @@
 .about-skill-hr {
   border: 1px solid #fff;
   width: 327px;
-  margin-top: -80px;
 }
 
 .skill {
