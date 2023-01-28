@@ -1664,4 +1664,14 @@
     order: 1;
     flex-grow: 0;
   }
+
+  .recent-works .frame-44 {
+    height: 2500px;
+  }
+
+  .frame-43 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 900px;
+  }
 }
