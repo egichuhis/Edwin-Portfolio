@@ -39,7 +39,13 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  transition: 0.2s;
 }
+
+.logo-txt:hover {
+  transform: scale(1.2);
+}
+
 
 .menu-bar {
   display: flex;
