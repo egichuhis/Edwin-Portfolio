@@ -136,9 +136,18 @@
   color: #fff;
 }
 
+.headline .socials li i {
+  transition: 0.2s;
+}
+
+.headline .socials li i:hover {
+  transform: scale(1.5);  
+}
+
 .social-icons li i {
   color: #505f79;
 }
+
 
 .headline .socials li i {
   font-size: 20px;
@@ -1531,6 +1540,11 @@
   .nav-menu li {
     color: #fff;
     margin-left: 80px;
+    transition: 0.2s;
+  }
+
+  .nav-menu li:hover {
+    transform: scale(1.2);
   }
 
   .nav-menu li a {
@@ -1783,7 +1797,7 @@
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    color: #f55800;
+    color: #f55800;transform: scale(1.5);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1937,5 +1951,13 @@
   .bottom-nav {
     width: 100vw;
     top: 4825px;
+  }
+
+  .social-icons li i {
+    transition: 0.2s;
+  }
+
+  .social-icons li i:hover {
+    transform: scale(1.4);
   }
 }
