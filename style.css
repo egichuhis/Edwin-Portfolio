@@ -811,7 +811,7 @@
 .about-me-section {
   position: absolute;
   width: fit-content;
-  height: 2260px;
+  height: 2060px;
   left: 0;
   top: 4400px;
   background: #1c1a19;
@@ -1448,7 +1448,7 @@
   width: 375px;
   height: 844px;
   left: 0;
-  top: 6838px;
+  top: 6400px;
 }
 
 .form-intro-container {
@@ -1520,7 +1520,7 @@
   width: 375px;
   height: 72px;
   left: 0;
-  top: 7825px;
+  top: 7325px;
   border-top: 1px solid #dfe1e6;
 }
 
