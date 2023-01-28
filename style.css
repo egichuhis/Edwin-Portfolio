@@ -1,7 +1,12 @@
+* {
+  width: auto;
+  box-sizing: border-box;
+}
+
 .toolbar {
   display: flex;
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 92px;
   left: 0;
   top: 0;
@@ -245,7 +250,6 @@
   order: 0;
   flex-grow: 0;
 }
-
 
 .frame-43 .action button span {
   width: 100px;
@@ -727,7 +731,6 @@
 .frame-43 .card:hover .action {
   display: flex;
 }
-
 
 .about a {
   display: flex;
@@ -1791,7 +1794,9 @@
     margin-top: -5px;
   }
 
-  .frame-29, .frame-33, .frame-34 {
+  .frame-29,
+  .frame-33,
+  .frame-34 {
     align-items: flex-start;
   }
 
