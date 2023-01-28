@@ -1656,6 +1656,10 @@
     flex-grow: 0;
   }
 
+  .form-section form hr {
+    width: 100%;
+  }
+
   .recent-works .title-container hr {
     width: 794px;
     height: 0;
@@ -1713,6 +1717,22 @@
     margin-top: -5px;
   }
 
+  .form-intro-container p {
+    width: 455px;
+    height: 256px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
   .recent-works .frame-44 .frame-44-1 .right-block p {
     width: 448px;
     height: 140px;
@@ -1736,8 +1756,8 @@
   }
 
   .about-me-section {
-    height: 1300px;
-    width: 100vw; 
+    height: 1370px;
+    width: 100vw;
     top: 2707px;
   }
 
@@ -1833,5 +1853,91 @@
     margin-top: 0;
     width: 1156px;
     margin-left: 15%;
+  }
+
+  .form-section {
+    top: 4080px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 130px 0;
+    gap: 24px;
+    position: absolute;
+    width: 1163px;
+    height: 420px;
+    left: 135px;
+  }
+
+  .form-intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    width: 455px;
+    height: 256px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 684px;
+    height: 330px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 40px;
+  }
+
+
+
+  .name-div {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 684px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .email-div {
+    width: 684px;
+    height: 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .message-div {
+    width: 684px;
+    height: 114px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .name-div input,
+  .email-div input {
+    width: 80%;
+    height: 40px;
+  }
+
+  .message-div textarea {
+    width: 80%;
+    height: 100px;
+  }
+
+  .bottom-nav {
+    width: 100vw;
+    top: 4825px;
   }
 }
