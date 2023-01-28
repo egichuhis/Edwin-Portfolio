@@ -146,14 +146,6 @@
   color: #fff;
 }
 
-.headline .socials li i {
-  transition: 0.2s;
-}
-
-.headline .socials li i:hover {
-  transform: scale(1.5);
-}
-
 .social-icons li i {
   color: #505f79;
 }
@@ -681,7 +673,7 @@
 
 .frame-43 .description {
   padding-left: 15px;
-   padding-top: 100px;
+  padding-top: 100px;
   width: 295px;
   height: 87px;
   font-family: 'Inter', sans-serif;
@@ -697,7 +689,7 @@
 
 .frame-43 .tags {
   padding-left: 15px;
-   padding-top: 120px;
+  padding-top: 120px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -710,15 +702,11 @@
 }
 
 .frame-43 .card .action {
-  display: flex;
+  display: none;
   height: 48px;
   width: 327px;
   background: #ff6b00;
   justify-content: center;
-}
-
-.frame-43 .card .action {
-  display: none;
 }
 
 .frame-43 .card:hover .mask-group {
@@ -1610,6 +1598,10 @@
     gap: 24px;
   }
 
+  .social-icons li i {
+    transition: 0.2s;
+  }
+
   .headline .socials li i {
     font-size: 24px;
   }
@@ -1666,7 +1658,7 @@
     position: absolute;
     width: 100vw;
     height: 1805px;
-    top: 805px; 
+    top: 805px;
   }
 
   .recent-works .title-container {
@@ -1987,10 +1979,6 @@
   .bottom-nav {
     width: 100vw;
     top: 4605px;
-  }
-
-  .social-icons li i {
-    transition: 0.2s;
   }
 
   .social-icons li i:hover {
