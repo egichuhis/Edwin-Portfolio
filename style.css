@@ -1791,6 +1791,10 @@
     margin-top: -5px;
   }
 
+  .frame-29, .frame-33, .frame-34 {
+    align-items: flex-start;
+  }
+
   .about-me-section {
     height: 1370px;
     width: 100vw;
