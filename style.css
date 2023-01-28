@@ -1736,7 +1736,8 @@
   }
 
   .about-me-section {
-    width: 100vw;
+    height: 1300px;
+    width: 100vw; 
     top: 2707px;
   }
 
@@ -1782,10 +1783,6 @@
     flex-grow: 0;
   }
 
-  .about-skill-hr {
-
-  }
-
   .skill {
     display: flex;
     flex-direction: row;
@@ -1793,9 +1790,48 @@
     padding: 130px 0;
     gap: 152px;
     position: absolute;
-    width: 1157.46px;
+    width: 100vw;
     height: 596px;
     left: 141px;
-    top: 749px;
+    top: 629px;
+  }
+
+  .frame-35 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 289.46px;
+    height: 281.46px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .frame-34,
+  .frame-33 {
+    margin-top: 0;
+  }
+
+  .frame-30 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+    width: 289.46px;
+    height: 41.46px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .about-skill-hr {
+    position: absolute;
+    top: 650px;
+    margin-top: 0;
+    width: 1156px;
+    margin-left: 15%;
   }
 }
