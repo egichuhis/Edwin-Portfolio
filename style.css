@@ -69,10 +69,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 0;
+  padding: 0 0;
   gap: 12px;
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 500px;
   left: 0;
   top: 92px;
@@ -1543,6 +1543,11 @@
 }
 
 @media only screen and (min-width: 768px) {
+  * {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .toolbar {
     width: 100vw;
   }
@@ -1592,13 +1597,12 @@
   .headline-text {
     order: 1;
     align-items: center;
-    padding: 102px 0;
     gap: 24px;
     position: absolute;
     width: 566px;
     height: 739px;
     left: 143px;
-    top: 72px;
+    top: 52px;
   }
 
   .headline .socials ul {
