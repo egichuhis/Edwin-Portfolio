@@ -46,7 +46,6 @@
   transform: scale(1.2);
 }
 
-
 .menu-bar {
   display: flex;
   flex-direction: row;
@@ -147,13 +146,12 @@
 }
 
 .headline .socials li i:hover {
-  transform: scale(1.5);  
+  transform: scale(1.5);
 }
 
 .social-icons li i {
   color: #505f79;
 }
-
 
 .headline .socials li i {
   font-size: 20px;
@@ -247,6 +245,7 @@
   order: 0;
   flex-grow: 0;
 }
+
 
 .frame-43 .action button span {
   width: 100px;
@@ -712,6 +711,23 @@
   background: #ff6b00;
   justify-content: center;
 }
+
+.frame-43 .card .action {
+  display: none;
+}
+
+.frame-43 .card:hover .mask-group {
+  background-image: url(./imgs/cardHover.png);
+}
+
+.frame-43 .card:hover .right-block {
+  display: none;
+}
+
+.frame-43 .card:hover .action {
+  display: flex;
+}
+
 
 .about a {
   display: flex;
@@ -1803,7 +1819,8 @@
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    color: #f55800;transform: scale(1.5);
+    color: #f55800;
+    transform: scale(1.5);
     flex: none;
     order: 0;
     flex-grow: 0;
