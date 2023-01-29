@@ -1804,12 +1804,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 130px 0;
     gap: 24px;
     position: absolute;
     width: 100vw;
     height: 582px;
-    left: 142px;
     background-image: url(./imgs/aboutBG.svg);
     background-position: 84% 30%;
   }
@@ -1851,7 +1849,6 @@
     padding: 130px 0;
     gap: 152px;
     position: absolute;
-    width: 100vw;
     height: 596px;
     left: 141px;
     top: 629px;
