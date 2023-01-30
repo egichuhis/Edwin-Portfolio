@@ -15,6 +15,7 @@
 - [📖 Edwin Gichuhi's Portfolio ](#-edwin-gichuhis-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -44,6 +45,16 @@
     <li><a href="https://formspree.io/">Formspree</a></li>
   </ul>
 </details>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://egichuhis.github.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 

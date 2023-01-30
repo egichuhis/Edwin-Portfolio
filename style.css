@@ -1731,6 +1731,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-left: -100px;
   }
 
   .recent-works .frame-44 .frame-44-1 .right-block h2 {
@@ -1747,7 +1748,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-top: -5px;
+    margin-top: -2px;
   }
 
   .form-intro-container p {
