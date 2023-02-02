@@ -8,7 +8,7 @@
   display: flex;
   position: absolute;
   width: 100%;
-  height: 92px;
+  height: 10.5%;
   left: 0;
   top: 0;
   background: #3c3a39;
@@ -22,9 +22,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 12px;
+  padding: 0 5%;
   position: absolute;
-  width: 101px;
+  width: fit-content;
   height: 44px;
   left: 12px;
   top: calc(50% - 44px / 2);
@@ -36,7 +36,7 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@
   position: absolute;
   width: 40px;
   height: 40px;
-  right: 24px;
+  right: 5%;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
   background: #3c3a39;
@@ -70,27 +70,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 0;
-  gap: 12px;
+  padding-bottom: 20%;
+  gap: 5%;
   position: absolute;
   width: 100%;
-  height: 500px;
+  height: auto;
   left: 0;
-  top: 92px;
+  top: 10%;
   background-color: #1c1a19;
   background-image: url(./imgs/Group.svg);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: 100% 130%;
+}
+
+.headline-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .headline .primary {
-  width: 327px;
-  height: 124px;
+  width: 70%;
+  height: fit-content;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
+  font-size: 3.5rem;
+  line-height: 4.3rem;
   letter-spacing: 0.37px;
   color: #ff6b00;
   flex: none;
@@ -99,12 +106,12 @@
 }
 
 .headline .supporting {
-  width: 327px;
-  height: 27px;
+  width: 70%;
+  height: fit-content;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 32px;
   display: flex;
   align-items: center;
@@ -115,13 +122,13 @@
 }
 
 .headline .description {
-  width: 327px;
-  height: 123px;
+  width: 70%;
+  height: fit-content;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #fff;
   flex: none;
   order: 2;
@@ -133,7 +140,7 @@
   flex-direction: row;
   align-items: center;
   padding: 0;
-  width: 375px;
+  width: 70%;
   height: 40px;
   flex: none;
   order: 3;
@@ -167,16 +174,16 @@
   width: 100%;
   height: 3455px;
   left: 0;
-  top: 600px;
+  top: 80%;
 }
 
 .recent-works .title-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
+  padding: 0 0;
   width: 100%;
-  height: 107px;
+  height: 3rem;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -186,12 +193,12 @@
 
 .recent-works .title-container h2 {
   width: 100%;
-  height: 83px;
+  height: fit-content;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 2rem;
   display: flex;
   align-items: center;
   color: #1c1a19;
@@ -201,7 +208,6 @@
 }
 
 .recent-works .title-container hr {
-  width: 80%;
   height: 0;
   border: 1px solid #212121;
   flex: none;
@@ -284,7 +290,7 @@
   padding: 0;
   gap: 24px;
   width: 100%;
-  height: 3028px;
+  height: fit-content;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -440,7 +446,7 @@
   padding: 0;
   gap: 12px;
   width: 297px;
-  height: 40px;
+  height: 25px;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -633,19 +639,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 24px;
-  margin-top: 140px;
-  gap: 24px;
-  width: 375px;
-  height: 2436px;
+  padding: 0 5%;
+  margin-top: 80px;
+  gap: 4px;
+  width: 100%;
+  height: fit-content;
   flex: none;
   order: 2;
   flex-grow: 0;
 }
 
 .card {
-  width: 327px;
-  height: 386px;
+  width: 100%;
+  height: fit-content;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -802,9 +808,9 @@
 .about-me-section {
   position: absolute;
   width: 100%;
-  height: 2060px;
+  height: fit-content;
   left: 0;
-  top: 4400px;
+  top: 4200px;
   background: #1c1a19;
 }
 
@@ -813,9 +819,8 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 32px;
-  gap: 24px;
   width: 100%;
-  height: 563px;
+  height: fit-content;
   left: 0;
   background-image: url(./imgs/Group.png);
   background-repeat: no-repeat;
@@ -823,12 +828,12 @@
 }
 
 .about .title {
-  width: 327px;
-  height: 79px;
+  width: 100%;
+  height: fit-content;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 72px;
+  font-size: 4.5rem;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -838,12 +843,12 @@
 }
 
 .about .description {
-  width: 327px;
+  width: 100%;
   height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   color: #f4f5f7;
   flex: none;
@@ -853,16 +858,15 @@
 
 .about-skill-hr {
   border: 1px solid #fff;
-  width: 327px;
+  width: 85%;
 }
 
 .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 24px;
-  gap: 24px;
-  width: 329px;
+  padding: 80px 24px;
+  width: 100%;
   height: 1241.46px;
   left: calc(50% - 329px / 2);
 }
@@ -873,7 +877,7 @@
   align-items: center;
   padding: 0;
   gap: 24px;
-  width: 225.46px;
+  width: 100%;
   height: 281.46px;
   flex: none;
   order: 0;
@@ -1056,12 +1060,12 @@
   align-items: center;
   padding: 0;
   gap: 24px;
-  width: 281px;
+  width: 100%;
   height: 336px;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .frame-31 {
@@ -1239,12 +1243,12 @@
   align-items: center;
   padding: 0;
   gap: 24px;
-  width: 169px;
+  width: 100%;
   height: 336px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin-top: 140px;
+  margin-top: 40px;
 }
 
 .frame-32 {
@@ -1439,7 +1443,7 @@
   width: 100%;
   height: 844px;
   left: 0;
-  top: 6470px;
+  top: 6070px;
 }
 
 .form-intro-container {
@@ -1514,7 +1518,7 @@
   width: 100%;
   height: 72px;
   left: 0;
-  top: 7325px;
+  top: 6825px;
   border-top: 1px solid #dfe1e6;
 }
 
