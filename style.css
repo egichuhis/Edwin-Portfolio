@@ -1724,7 +1724,7 @@
   }
 
   .recent-works .frame-44 .frame-44-1 img {
-    width: 45%;
+    width: 40%;
     height: fit-content;
     flex: none;
     order: 0;
@@ -1849,14 +1849,13 @@
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
+    font-size: 67px;
     line-height: 82px;
     color: #f55800;
-    transform: scale(1.5);
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding-left: 90px;
+    /* padding-left: 90px; */
   }
 
   .about .description {
@@ -1874,13 +1873,10 @@
   }
 
   .skill {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    position: absolute;
-    height: 596px;
-    left: 141px;
-    top: 629px;
+   display: flex;
+   flex-direction: row;
+   margin-top: 15%;
+   justify-content: center;
   }
 
   .frame-35 {
