@@ -1065,7 +1065,6 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 40px;
 }
 
 .frame-31 {
@@ -1248,7 +1247,6 @@
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin-top: 40px;
 }
 
 .frame-32 {
@@ -1667,7 +1665,7 @@
     gap: 114px;
     position: absolute;
     width: 100vw;
-    height: 1805px;
+    height: fit-content;
     top: 805px;
   }
 
@@ -1675,9 +1673,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
     gap: 24px;
-    width: 1353px;
+    width: 100%;
     height: 52px;
     flex: none;
     order: 0;
@@ -1714,19 +1713,19 @@
   }
 
   .recent-works .frame-44 {
-    height: 2500px;
-    width: 100vw;
+    height: fit-content;
+    width: 100%;
   }
 
   .recent-works .frame-44 .frame-44-1 {
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: space-around;
   }
 
   .recent-works .frame-44 .frame-44-1 img {
-    width: 684px;
-    height: 448px;
+    width: 45%;
+    height: fit-content;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1737,8 +1736,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    width: 548px;
-    height: 448px;
+    width: 45%;
+    height: fit-content;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1746,7 +1745,7 @@
   }
 
   .recent-works .frame-44 .frame-44-1 .right-block h2 {
-    width: 448px;
+    width: 100%;
     height: 48px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -1779,8 +1778,8 @@
   }
 
   .recent-works .frame-44 .frame-44-1 .right-block p {
-    width: 448px;
-    height: 140px;
+    width: 100%;
+    height: fit-content;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1795,20 +1794,40 @@
   .frame-43 {
     display: grid;
     grid-template-columns: auto auto auto;
-    height: 900px;
-    width: 85vw;
+    height: fit-content;
+    width: 100%;
     margin-top: -5px;
   }
 
-  .frame-29,
-  .frame-33,
-  .frame-34 {
-    align-items: flex-start;
+  .frame-43 .description {
+    width: 100%;
+  }
+
+  .frame-43 .tags {
+    width: 100%;
+  }
+
+  .frame-43 .card .action  {
+    width: 90%;
+  }
+
+  .frame-43 .card .action a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .mask-group {
+    width: 90%;
   }
 
   .about-me-section {
     height: 1370px;
-    width: 100vw;
+    width: 100%;
     top: 2507px;
   }
 
@@ -1818,14 +1837,14 @@
     align-items: flex-start;
     gap: 24px;
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 582px;
     background-image: url(./imgs/aboutBG.svg);
-    background-position: 84% 30%;
+    background-position: 100% 100%;
   }
 
   .about .title {
-    width: 566px;
+    width: 40%;
     height: 78px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -1841,7 +1860,7 @@
   }
 
   .about .description {
-    width: 566px;
+    width: 40%;
     height: 148px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1858,8 +1877,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 130px 0;
-    gap: 152px;
     position: absolute;
     height: 596px;
     left: 141px;
@@ -1872,16 +1889,23 @@
     align-items: flex-start;
     padding: 0;
     gap: 24px;
-    width: 289.46px;
+    width: 25%;
     height: 281.46px;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
-  .frame-34,
+  .frame-34 {
+    display: flex;
+    width: 25%;
+    align-items: flex-start;
+  }
+
   .frame-33 {
-    margin-top: 0;
+     display: flex;
+    width: 25%;
+    align-items: flex-start;
   }
 
   .frame-30 {
@@ -1901,8 +1925,8 @@
     position: absolute;
     top: 650px;
     margin-top: 0;
-    width: 1156px;
-    margin-left: 15%;
+    width: 85%;
+
   }
 
   .form-section {
