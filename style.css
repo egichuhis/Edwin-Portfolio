@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-
 .toolbar {
   display: flex;
   position: absolute;
@@ -87,7 +86,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .headline .primary {
@@ -295,7 +293,6 @@
   order: 1;
   flex-grow: 0;
 }
-
 
 .frame-43 .right-block {
   display: flex;
@@ -1435,7 +1432,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 6% 0px;
+  padding: 6% 0;
   gap: 58px;
   position: absolute;
   width: 100%;
@@ -1494,7 +1491,6 @@
 .email-div input {
   border: none;
   height: 85%;
-
 }
 
 .message-div {
@@ -1807,7 +1803,7 @@
     width: 100%;
   }
 
-  .frame-43 .card .action  {
+  .frame-43 .card .action {
     width: 90%;
   }
 
@@ -1855,6 +1851,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+
     /* padding-left: 90px; */
   }
 
@@ -1873,10 +1870,10 @@
   }
 
   .skill {
-   display: flex;
-   flex-direction: row;
-   margin-top: 15%;
-   justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    justify-content: center;
   }
 
   .frame-35 {
@@ -1899,7 +1896,7 @@
   }
 
   .frame-33 {
-     display: flex;
+    display: flex;
     width: 25%;
     align-items: flex-start;
   }
@@ -1922,7 +1919,6 @@
     top: 650px;
     margin-top: 0;
     width: 85%;
-
   }
 
   .form-section {
