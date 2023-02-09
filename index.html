@@ -18,7 +18,7 @@
                     <h3 class="logo-txt">Edwin G.</h3>
                 </a>
                 <nav class="menu-bar">
-                    <img src="./imgs/Union.svg" alt="menu icon">
+                    <img src="./imgs/Union.svg" alt="menu icon" onclick="showMobileMenu()">
                     <ul class="nav-menu">
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#about">About</a></li>
@@ -57,7 +57,9 @@
                 </ul>
             </span>
         </section>
-        <section class="recent-works">
+
+        <!-- start of works section -->
+        <section class="recent-works" id="portfolio">
             <span class="title-container">
                 <h2>My Recent Works</h2>
                 <hr />
@@ -292,7 +294,7 @@
 
         <!-- start of about me section -->
 
-        <section class="about-me-section">
+        <section class="about-me-section" id="about">
             <div class="about">
                 <span class="title">
                     About me
@@ -383,7 +385,7 @@
             </ul>
         </section>
 
-        <section class="form-section">
+        <section class="form-section" id="contact"> 
             <div class="form-intro-container">
                 <p>
                     I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -417,6 +419,20 @@
                 <li><a href="#"><i class="fa fa-medium"></i></a></li>
             </ul>
         </section>
+
+        <div id="mobile-menu" onclick="closeMobileMenu()">
+            <span>
+                <img src="./imgs/Icon-Cancel.svg" alt="menu-close icon">
+            </span>
+            <ul id="mobile-menu-ul">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <hr>
+                <li><a href="#about">About</a></li>
+                <hr>
+                <li><a href="#contact">Contact</a></li>
+                <hr>
+            </ul>
+        </div>
 
         <script src="script.js"></script>
     </body>
