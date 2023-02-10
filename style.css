@@ -1659,6 +1659,7 @@ margin-top: -10px;
   .headline .socials ul {
     flex-direction: column;
     gap: 24px;
+    padding-top: 100px;
   }
 
   .social-icons li i {
