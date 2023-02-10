@@ -708,7 +708,7 @@ margin-top: -10px;
 }
 
 .mask-group {
-  width: 327px;
+  width: 100%;
   height: 386px;
   background: url(./imgs/MaskGroup.png);
 }
@@ -859,7 +859,7 @@ margin-top: -10px;
   width: 100%;
   height: fit-content;
   left: 0;
-  top: 4200px;
+  top: 3600px;
   background: #1c1a19;
 }
 
@@ -867,10 +867,9 @@ margin-top: -10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 32px;
+  padding: 100px 32px;
   width: 100%;
   height: fit-content;
-  left: 0;
   background-image: url(./imgs/Group.png);
   background-repeat: no-repeat;
   background-position: 100% 98%;
@@ -916,7 +915,7 @@ margin-top: -10px;
   align-items: center;
   padding: 80px 24px;
   width: 100%;
-  height: 1241.46px;
+  height: 1141.46px;
   left: calc(50% - 329px / 2);
 }
 
@@ -1488,9 +1487,9 @@ margin-top: -10px;
   gap: 58px;
   position: absolute;
   width: 100%;
-  height: 844px;
+  height: 804px;
   left: 0;
-  top: 6070px;
+  top: 5300px;
 }
 
 .form-intro-container {
@@ -1564,7 +1563,7 @@ margin-top: -10px;
   width: 100%;
   height: 72px;
   left: 0;
-  top: 6825px;
+  top: 6050px;
   border-top: 1px solid #dfe1e6;
 }
 
