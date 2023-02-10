@@ -1942,7 +1942,7 @@ margin-top: -10px;
   .skill {
     display: flex;
     flex-direction: row;
-    margin-top: 15%;
+    margin-top: 35%;
     justify-content: center;
   }
 
@@ -1986,9 +1986,9 @@ margin-top: -10px;
 
   .about-skill-hr {
     position: absolute;
-    top: 650px;
-    margin-top: 0;
-    width: 85%;
+    top: 700px;
+    margin-left: 5%;
+    width: 90%;
   }
 
   .form-section {
