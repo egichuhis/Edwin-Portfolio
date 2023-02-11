@@ -21,8 +21,7 @@
   display: none;
   flex-direction: column;
   position: absolute;
-  left: 0;
-  right: 0;
+  width: 95%;
   top: 0;
   bottom: 57px;
   background: #3c3a39;
@@ -1317,7 +1316,7 @@
 }
 
 #mobile-menu img {
-  width: 40px;
+  width: 38px;
   margin-right: 20px;
   margin-top: 20px;
 }
