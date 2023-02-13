@@ -1799,6 +1799,7 @@
     align-items: flex-start;
     padding: 0;
     width: 45%;
+    gap: 30px;
     height: fit-content;
     flex: none;
     order: 1;
