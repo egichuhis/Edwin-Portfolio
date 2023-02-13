@@ -1598,6 +1598,9 @@
 
   .toolbar {
     width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: -5px;
   }
 
   .menu-bar {
