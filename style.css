@@ -1902,7 +1902,7 @@
   .about-me-section {
     height: 1370px;
     width: 100%;
-    top: 2350px;
+    top: 2500px;
   }
 
   .about {
@@ -1950,7 +1950,7 @@
   .skill {
     display: flex;
     flex-direction: row;
-    margin-top: 35%;
+    margin-top: 20%;
     justify-content: center;
   }
 
@@ -2000,7 +2000,7 @@
   }
 
   .form-section {
-    top: 3700px;
+    top: 3900px;
     display: flex;
     flex-direction: row;
     align-items: center;
