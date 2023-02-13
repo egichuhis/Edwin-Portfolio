@@ -1900,7 +1900,7 @@
   }
 
   .about-me-section {
-    height: 1370px;
+    height: 1300px;
     width: 100%;
     top: 2500px;
   }
@@ -2000,12 +2000,12 @@
   }
 
   .form-section {
-    top: 3900px;
+    top: 3800px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 130px 0;
+    padding: 140px 0;
     position: absolute;
     width: 100%;
     height: fit-content;
@@ -2079,10 +2079,15 @@
 
   .bottom-nav {
     width: 100%;
-    top: 4325px;
+    top: 4450px;
+    padding: 100px 0;
+  }
+
+  .social-icons li i {
+    font-size: 20px;
   }
 
   .social-icons li i:hover {
-    transform: scale(1.4);
+    transform:rotate(20deg);
   }
 }
