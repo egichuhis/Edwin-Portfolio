@@ -1999,16 +1999,15 @@
   }
 
   .form-section {
-    top: 3900px;
+    top: 3700px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 130px 0;
     gap: 24px;
     position: absolute;
-    width: 1163px;
-    height: 420px;
-    left: 135px;
+    width: 100%;
+    height: fit-content;
   }
 
   .form-intro-container {
@@ -2078,8 +2077,8 @@
   }
 
   .bottom-nav {
-    width: 100vw;
-    top: 4605px;
+    width: 100%;
+    top: 4325px;
   }
 
   .social-icons li i:hover {
