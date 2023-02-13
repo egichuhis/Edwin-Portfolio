@@ -1896,6 +1896,7 @@
 
   .frame-43 .card:hover .mask-group {
     background-image: url(./imgs/cardHover.png);
+    background-size: cover;
   }
 
   .about-me-section {
