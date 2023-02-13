@@ -18,7 +18,7 @@
                     <h3 class="logo-txt">Edwin G.</h3>
                 </a>
                 <nav class="menu-bar">
-                    <img src="./imgs/Union.svg" alt="menu icon">
+                    <img src="./imgs/Union.svg" alt="menu icon" id="menu-icon">
                     <ul class="nav-menu">
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#about">About</a></li>
@@ -57,12 +57,14 @@
                 </ul>
             </span>
         </section>
-        <section class="recent-works">
+
+        <!-- start of works section -->
+        <section class="recent-works" id="portfolio">
             <span class="title-container">
                 <h2>My Recent Works</h2>
                 <hr />
             </span>
-            <div class="frame-44">
+            <div class="frame-44" id="portfolio">
                 <div class="frame-44-1">
                     <img src="./imgs/Img_Placeholder.png" alt="lady doing yoga">
                     <div class="right-block">
@@ -185,7 +187,6 @@
                                     </li>
                                 </ul>
                             </div>
-
                         </div>
                         <div class="action">
                             <a href="#">
@@ -219,7 +220,15 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="action">https://egichuhis.github.io/
+                        <div class="action">
+                            <a href="#">
+                                <button>
+                                    <h3>See Project</h3>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
                         <div class="mask-group">
                             <div class="right-block">
                                 <div class="title">
@@ -290,7 +299,7 @@
 
         <!-- start of about me section -->
 
-        <section class="about-me-section">
+        <section class="about-me-section" id="about">
             <div class="about">
                 <span class="title">
                     About me
@@ -381,7 +390,7 @@
             </ul>
         </section>
 
-        <section class="form-section">
+        <section class="form-section" id="contact">
             <div class="form-intro-container">
                 <p>
                     I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -416,7 +425,21 @@
             </ul>
         </section>
 
+        <div id="mobile-menu">
+            <span>
+                <img src="./imgs/Icon-Cancel.svg" alt="menu-close icon" id="close-menu">
+            </span>
+            <ul id="mobile-menu-ul">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <hr>
+                <li><a href="#about">About</a></li>
+                <hr>
+                <li><a href="#contact">Contact</a></li>
+                <hr>
+            </ul>
+        </div>
 
+        <script src="script.js"></script>
     </body>
 
 </html>
