@@ -22,20 +22,12 @@ mobileMenu.addEventListener('click', () => {
   }
 });
 
-// const cards = {
-//   card_1: {
-//     title: 'First Project',
-//     description: 'First project description',
-//     image: '/imgs/MaskGroup.png',
-//   },
-// };
-
 const card = `
                     <div class="card">
                         <div class="mask-group">
                             <div class="right-block">
                                 <div class="title">
-                                    Project Title
+                                    Project Art<br>Printing Data
                                 </div>
                                 <div class="description">
                                     A daily selection of privately personalized reads; no accounts or sign-ups required.
@@ -66,4 +58,7 @@ const card = `
 `;
 
 const cardsContainer = document.getElementById('cards-container');
-cardsContainer.innerHTML = card;
+
+for (let i = 0; i <= 5; i += 1) {
+  cardsContainer.innerHTML += card;
+}
