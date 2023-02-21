@@ -617,7 +617,6 @@
 }
 
 .frame-44 .right-block .see-project-btn {
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -783,7 +782,6 @@
 }
 
 .about button {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
@@ -797,7 +795,6 @@
 }
 
 .form-section button {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
@@ -825,7 +822,6 @@
 }
 
 .frame-43 .card .action button {
-  display: flex;
   align-items: center;
   padding: 12px;
   gap: 10px;
