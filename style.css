@@ -200,9 +200,8 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 12px;
-  gap: 12px;
-  /* position: absolute; */
   width: 134px;
   height: 48px;
   left: 0;
@@ -214,9 +213,8 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 12px;
-  gap: 12px;
-  /* position: absolute; */
   width: 159px;
   height: 48px;
   left: 153px;
@@ -225,7 +223,7 @@
 }
 
 .details-left-block .action h3 {
-  width: 99px;
+  width: fit-content;
   height: 24px;
   font-family: 'Inter';
   font-style: normal;
@@ -240,6 +238,11 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.details-left-block .action i {
+  color: #fff;
+  font-size: 24px;
 }
 
 #close-details {
