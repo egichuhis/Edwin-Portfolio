@@ -38,11 +38,146 @@
   gap: 24px;
   position: absolute;
   width: 343px;
-  height: 718px;
+  height: 600px;
   left: calc(50% - 343px / 2);
   top: 60px;
   background: #fff;
   border: 1px solid #dfe1e6;
+}
+
+.details-title-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 311px;
+  height: 130px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.details-title-span {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 311px;
+  height: 82px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.details-title-span h3 {
+  width: 259px;
+  height: 82px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.details-title-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 270px;
+  height: 36px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  list-style: none;
+}
+
+.details-title-tags .html {
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 55px;
+  height: 36px;
+  border: 1px solid #979493;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.details-title-tags .bootstrap {
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 90px;
+  height: 36px;
+  border: 1px solid #979493;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.details-title-tags .ruby {
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 109px;
+  height: 36px;
+  border: 1px solid #979493;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.details-title-tags h6 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.details-snapshoot {
+  width: 311px;
+  height: 220px;
+  background: url(./imgs/Snapshoot.png);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.details-leftblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 311px;
+  height: 288px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+#close-details {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .logo-container {
