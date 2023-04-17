@@ -10,17 +10,7 @@ menuIcon.addEventListener('click', () => {
   }
 });
 
-closeMenuIcon.addEventListener('click', () => {
-  if (mobileMenu.style.display === 'block') {
-    mobileMenu.style.display = 'none';
-  }
-});
 
-mobileMenu.addEventListener('click', () => {
-  if (mobileMenu.style.display === 'block') {
-    mobileMenu.style.display = 'none';
-  }
-});
 
 const card = `
                     <div class="card">
