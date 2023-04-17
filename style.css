@@ -20,10 +20,10 @@
 #mobile-menu {
   display: none;
   flex-direction: column;
-  position: absolute;
-  width: 95%;
+  position: fixed;
+  width: 100%;
   top: 0;
-  bottom: 57px;
+  bottom: 0;
   background: #3c3a39;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
