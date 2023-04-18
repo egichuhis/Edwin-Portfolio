@@ -1,19 +1,9 @@
 const menuIcon = document.getElementById('menu-icon');
 const mobileMenu = document.getElementById('mobile-menu');
 const closeMenuIcon = document.getElementById('close-menu');
-
-menuIcon.addEventListener('click', () => {
-  mobileMenu.style.display = 'block';
-});
-
-closeMenuIcon.addEventListener('click', () => {
-  mobileMenu.style.display = 'none';
-});
-
-mobileMenu.addEventListener('click', () => {
-  mobileMenu.style.display = 'none';
-});
-
+const seeProjBtns = document.getElementsByClassName('see-project-btn');
+const projDetails = document.getElementById('project-detail');
+const cardsContainer = document.getElementById('cards-container');
 const card = `
                     <div class="card">
                         <div class="mask-group">
@@ -41,7 +31,7 @@ const card = `
                         </div>
                         <div class="action">
                             <a href="#">
-                                <button>
+                                <button class="see-project-btn">
                                     <h6>See Project</h6>
                                 </button>
                             </a>
@@ -49,8 +39,24 @@ const card = `
                     </div>
 `;
 
-const cardsContainer = document.getElementById('cards-container');
+menuIcon.addEventListener('click', () => {
+  mobileMenu.style.display = 'block';
+});
+
+closeMenuIcon.addEventListener('click', () => {
+  mobileMenu.style.display = 'none';
+});
+
+mobileMenu.addEventListener('click', () => {
+  mobileMenu.style.display = 'none';
+});
 
 for (let i = 0; i <= 5; i += 1) {
   cardsContainer.innerHTML += card;
+}
+
+for (let i = 0; i < seeProjBtns.length; i += 1) {
+  seeProjBtns[i].addEventListener('click', () => {
+    projDetails.style.display = 'flex';
+  });
 }
