@@ -2,6 +2,7 @@ const menuIcon = document.getElementById('menu-icon');
 const mobileMenu = document.getElementById('mobile-menu');
 const closeMenuIcon = document.getElementById('close-menu');
 const seeProjBtns = document.getElementsByClassName('see-project-btn');
+const closeProjDetails = document.getElementById('close-details');
 const projDetails = document.getElementById('project-detail');
 const cardsContainer = document.getElementById('cards-container');
 const card = `
@@ -60,3 +61,7 @@ for (let i = 0; i < seeProjBtns.length; i += 1) {
     projDetails.style.display = 'flex';
   });
 }
+
+closeProjDetails.addEventListener('click', () => {
+  projDetails.style.display = 'none';
+});
