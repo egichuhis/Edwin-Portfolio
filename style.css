@@ -36,11 +36,10 @@
   align-items: center;
   padding: 16px;
   gap: 24px;
-  position: absolute;
-  width: 343px;
-  height: 718px;
-  left: calc(50% - 343px / 2);
-  top: 60px;
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  top: 0;
   background: #fff;
   border: 1px solid #dfe1e6;
 }
@@ -48,11 +47,11 @@
 .details-title-cont {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
-  gap: 12px;
-  width: 311px;
-  height: 130px;
+  /* gap: 12px; */
+  width: 100%;
+  height: fit-content;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -61,19 +60,19 @@
 .details-title-span {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
-  gap: 12px;
-  width: 311px;
-  height: 82px;
+  /* gap: 12px; */
+  width: 100%;
+  height: fit-content;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .details-title-span h3 {
-  width: 259px;
-  height: 82px;
+  width: 90%;
+  height: fit-content;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -91,8 +90,8 @@
   align-items: center;
   padding: 0;
   gap: 8px;
-  width: 270px;
-  height: 36px;
+  width: 100%;
+  height: fit-content;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -151,8 +150,8 @@
 }
 
 .details-snapshoot {
-  width: 311px;
-  height: 220px;
+  width: 100%;
+  height: 180px;
   background: url(./imgs/Snapshoot.png);
   flex: none;
   order: 1;
@@ -162,19 +161,19 @@
 .details-left-block {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 0;
   gap: 12px;
-  width: 311px;
-  height: 288px;
+  width: 100%;
+  height: fit-content;
   flex: none;
   order: 2;
   flex-grow: 0;
 }
 
 .details-left-block p {
-  width: 311px;
-  height: 220px;
+  width: 100%;
+  height: 150px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -189,7 +188,7 @@
 .details-left-block .action {
   display: flex;
   justify-content: space-between;
-  width: 311px;
+  width: 100%;
   height: 56px;
   flex: none;
   order: 1;
@@ -205,7 +204,7 @@
   width: 134px;
   height: 48px;
   left: 0;
-  top: 4px;
+  /* top: 4px; */
   background: #ff6b00;
 }
 
@@ -218,13 +217,13 @@
   width: 159px;
   height: 48px;
   left: 153px;
-  top: 4px;
+  /* top: 4px; */
   background: #ff6b00;
 }
 
 .details-left-block .action h3 {
   width: fit-content;
-  height: 24px;
+  height: fit-content;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
