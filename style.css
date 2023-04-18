@@ -29,6 +29,62 @@
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
+@keyframes glowing {
+        0% {
+          
+          scale: 1;
+          border: rgb(0, 0, 0, 1) 1px solid;
+        }
+        25% {
+          scale: 1.2;
+          border: rgb(0, 0, 0, 0.5) 1px solid;
+        }
+         50% {
+          scale: 1.4;
+          border: rgb(0, 0, 0, 1.5) 1px solid;
+        }
+         75% {
+          scale: 1.6;
+          border: rgb(0, 0, 0, 0.5) 1px solid;
+        }
+        100% {
+          scale: 1;
+          border: rgb(0, 0, 0, 1) 1px solid;
+        }
+      }
+
+@keyframes glowing-light {
+        0% {
+          
+          scale: 1;
+          border: rgb(255, 255, 255, 1) 1px solid;
+        }
+        25% {
+          scale: 1.2;
+          border: rgb(255, 255, 255, 0.5) 1px solid;
+        }
+         50% {
+          scale: 0.5;
+          border: rgb(255, 255, 255, 0) 1px solid;
+        }
+         75% {
+          scale: 1.2;
+          border: rgb(255, 255, 255, 0.5) 1px solid;
+        }
+        100% {
+          scale: 1;
+          border: rgb(255, 255, 255, 1) 1px solid;
+        }
+      }
+
+#close-details {
+  animation: glowing 2500ms 2000ms;
+}
+
+#close-menu {
+  animation: glowing-light 2500ms 1000ms;
+}
+
 #project-detail {
   box-sizing: border-box;
   display: none;
