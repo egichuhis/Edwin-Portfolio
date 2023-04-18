@@ -38,7 +38,7 @@
   /* gap: 24px; */
   position: fixed;
   width: 100%;
-  height: fit-content;
+  height: 100%;
   top: 0;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -1819,12 +1819,17 @@
   #project-detail {
     display: flex;
     height: 100%;
-    top: 50px;
+    top: 0;
     gap: 24px;
   }
 
   .details-title-cont {
     height: 15%;
+    margin-top: 7%;
+  }
+
+  .details-title-span {
+    justify-content: space-between;
   }
 
   .left-right-cont {
@@ -1837,10 +1842,17 @@
 
   .details-snapshoot {
     height: 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .details-left-block  {
     height: 95%;
+    gap: 24px;
+  }
+
+  .details-left-block .action {
+    justify-content: flex-start;
     gap: 24px;
   }
 
