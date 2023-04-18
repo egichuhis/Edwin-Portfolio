@@ -185,6 +185,10 @@
   flex-grow: 0;
 }
 
+.hidden-text {
+  display: none;
+}
+
 .details-left-block .action {
   display: flex;
   justify-content: space-between;
@@ -1810,6 +1814,46 @@
 
   #mobile-menu {
     display: none;
+  }
+
+  #project-detail {
+    display: flex;
+    height: 100%;
+    top: 50px;
+    gap: 24px;
+  }
+
+  .details-title-cont {
+    height: 15%;
+  }
+
+  .left-right-cont {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .details-snapshoot {
+    height: 95%;
+  }
+
+  .details-left-block  {
+    height: 95%;
+    gap: 24px;
+  }
+
+.hidden-text {
+  display: contents;
+}
+
+  .left-side {
+
+  }
+
+  .right-side {
+
   }
 
   .toolbar {
