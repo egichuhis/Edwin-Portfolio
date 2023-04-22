@@ -178,3 +178,31 @@ const closeProjDetails = document.getElementById('close-details');
 closeProjDetails.addEventListener('click', () => {
   projDetails.style.display = 'none';
 });
+
+const form = document.getElementById('form');
+const nameInput = document.getElementById('fname');
+const emailInput = document.getElementById('email');
+const textAreaInput = document.getElementById('message');
+const errorElement = document.getElementById('error');
+
+form.addEventListener('submit', (event) => {
+  const errorMessages = [];
+
+  if (nameInput.value.trim() === '') {
+    errorMessages.push('Name field is required');
+  } else if (emailInput.value.trim() === '') {
+    errorMessages.push('Email field is required');
+  } else if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorMessages.push('Email must be in lowercase');
+  } else if (textAreaInput.value.trim() === '') {
+    errorMessages.push('Message field is required');
+  }
+
+  if (errorMessages.length > 0) {
+    event.preventDefault();
+
+    errorElement.textContent = errorMessages.join('. ');
+  } else {
+    errorElement.textContent = '';
+  }
+});
