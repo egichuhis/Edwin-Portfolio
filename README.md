@@ -170,7 +170,7 @@ If you like this project, please give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse Inc. coding partner Alex and community for accelerating my learning process.
+I would like to thank Microverse Inc. coding partner [Alex Waweru](https://github.com/AleWaweru)  and community for accelerating my learning process.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
