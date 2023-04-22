@@ -205,22 +205,25 @@
                     I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
                 </p>
             </div>
-            <form action="https://formspree.io/f/mnqynkjg" method="POST">
+            <form action="https://formspree.io/f/mnqynkjg" method="POST" id="form">
                 <div class="name-div">
-                    <input type="text" name="name" placeholder="Full name" maxlength="30" required>
+                    <input type="text" name="name" placeholder="Full name" maxlength="30" required id="name">
                     <hr>
                 </div>
                 <div class="email-div">
-                    <input type="email" name="email" placeholder="Email address" required>
+                    <input type="email" name="email" placeholder="Email address" required id="email">
                     <hr>
                 </div>
                 <div class="message-div">
-                    <textarea name="message" rows="4" cols="39" maxlength="500" required>Enter text here</textarea>
+                    <textarea name="message" rows="4" cols="39" maxlength="500" required id="message">Enter text here</textarea>
                 </div>
 
                 <button type="submit">
                     <h6>Get in touch</h6>
                 </button>
+                <span id="error">
+                    
+                </span>
             </form>
         </section>
 

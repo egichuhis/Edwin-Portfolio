@@ -178,3 +178,29 @@ const closeProjDetails = document.getElementById('close-details');
 closeProjDetails.addEventListener('click', () => {
   projDetails.style.display = 'none';
 });
+
+const form = document.getElementById('form');
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const messageInput = document.getElementById('message');
+const errorMessage = document.getElementById('error');
+
+form.addEventListener('submit', (e) => {
+  const errorMessages = [];
+
+  e.preventDefault();
+  if (nameInput.value === '') {
+    errorMessages.push('Name is required');
+  } else if (emailInput.value === '') {
+    errorMessages.push('Email is required');
+  } else if (messageInput.value === '') {
+    errorMessages.push('Message is required');
+  }
+
+  if (errorMessages.length > 0) {
+    e.preventDefault();
+    errorMessage.textContent = errorMessages.join('. ');
+  } else {
+    errorMessage.textContent = '';
+  }
+});
