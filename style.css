@@ -100,6 +100,7 @@
   height: 95%;
   left: 16px;
   top: 15px;
+
   /* bottom: 20px; */
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -216,7 +217,8 @@
 .details-snapshoot {
   width: 100%;
   height: 210px;
-  background: url(./imgs/Snapshoot.png);
+
+  /* background: url(./imgs/Snapshoot.png); */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -226,7 +228,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
 
   /* gap: 12px; */
   width: 100%;
@@ -948,6 +950,7 @@
 .mask-group {
   width: 100%;
   height: 386px;
+
   /* background: url(`${project.image}`); */
 }
 
@@ -1898,6 +1901,7 @@
 
   .details-title-cont {
     height: 15%;
+
     /* margin-top: 7%; */
   }
 
@@ -1918,6 +1922,7 @@
     height: 95%;
     background-size: cover;
     background-repeat: no-repeat;
+
     /* margin-top: 15%; */
   }
 

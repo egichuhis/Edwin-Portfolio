@@ -88,7 +88,7 @@ detailsPop.innerHTML = `
             </div>
             <div class="left-right-cont">
                 <div class="left-side">
-                    <div class="details-snapshoot">
+                    <div class="details-snapshoot" style="background-image: url(${projects[2].image});">
                     </div>
                 </div>
 
