@@ -2,24 +2,25 @@ const menuIcon = document.getElementById('menu-icon');
 const mobileMenu = document.getElementById('mobile-menu');
 const closeMenuIcon = document.getElementById('close-menu');
 const seeProjBtns = document.getElementsByClassName('see-project-btn');
-const closeProjDetails = document.getElementById('close-details');
 const projDetails = document.getElementById('project-detail');
 const cardsContainer = document.getElementById('cards-container');
+const detailsContainer = document.getElementById('project-detail');
 
 const projects = [
   {
     title: 'Project Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    image: 'link_to_poject1_image.jpg',
+    image: './imgs/cardHover.png',
+    cancelIcon: './imgs/Icon-Cancel.svg',
     technologies: ['Html', 'Bootstrap', 'Ruby'],
     linkLive: 'https://egichuhis.github.io/',
     linkSource: 'https://github.com/egichuhis/Edwin-Portfolio',
-    detailsDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+    detailsDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   },
   {
     title: 'Data Dashboard Healthcare',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard',
-    image: 'link_to_poject1_image.jpg',
+    image: './imgs/Proj2.png',
     technologies: ['Html', 'Bootstrap', 'Ruby'],
     linkLive: 'https://egichuhis.github.io/',
     linkSource: 'https://github.com/egichuhis/Edwin-Portfolio',
@@ -28,7 +29,7 @@ const projects = [
   {
     title: 'Website Portfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    image: 'link_to_poject1_image.jpg',
+    image: './imgs/Proj3.png',
     technologies: ['Html', 'Bootstrap', 'Ruby'],
     linkLive: 'https://egichuhis.github.io/',
     linkSource: 'https://github.com/egichuhis/Edwin-Portfolio',
@@ -38,7 +39,7 @@ const projects = [
   {
     title: 'Project Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    image: 'link_to_poject1_image.jpg',
+    image: './imgs/cardHover.png',
     technologies: ['Html', 'Bootstrap', 'Ruby'],
     linkLive: 'https://egichuhis.github.io/',
     linkSource: 'https://github.com/egichuhis/Edwin-Portfolio',
@@ -47,7 +48,7 @@ const projects = [
   {
     title: 'Data Dashboard Healthcare',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    image: 'link_to_poject1_image.jpg',
+    image: './imgs/Proj1.png',
     technologies: ['Html', 'Bootstrap', 'Ruby'],
     linkLive: 'https://egichuhis.github.io/',
     linkSource: 'https://github.com/egichuhis/Edwin-Portfolio',
@@ -56,7 +57,7 @@ const projects = [
   {
     title: 'Website Portfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    image: 'link_to_poject1_image.jpg',
+    image: './imgs/Proj2.png',
     technologies: ['Html', 'Bootstrap', 'Ruby'],
     linkLive: 'https://egichuhis.github.io/',
     linkSource: 'https://github.com/egichuhis/Edwin-Portfolio',
@@ -64,8 +65,58 @@ const projects = [
   },
 ];
 
+const detailsPop = document.createElement('div');
+detailsPop.innerHTML = `
+            <div class="details-title-cont">
+                <div class="details-title-span">
+                    <h3>${projects[0].title}</h3>
+                    <img src=${projects[0].cancelIcon} alt="menu-close icon" id="close-details">
+                </div>
+                <ul class="details-title-tags">
+
+                    <li class="html">
+                        <h6>${projects[0].technologies[0]}</h6>
+                    </li>
+                    <li class="bootstrap">
+                        <h6>${projects[0].technologies[1]}</h6>
+                    </li>
+                    <li class="ruby">
+                        <h6>${projects[0].technologies[2]}</h6>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="left-right-cont">
+                <div class="left-side">
+                    <div class="details-snapshoot">
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="details-left-block">
+                        <p>${projects[0].detailsDescription}</p>
+
+                        <div class="action">
+                            <a href=${projects[0].linkLive} target="_blank" rel="noopener">
+                                <button class="live">
+                                    <h3>See Live</h3>
+                                    <i class="fa fa-external-link"></i>
+                                </button>
+                            </a>
+                            <a href=${projects[0].linkSource} target="_blank" rel="noopener">
+                                <button class="source">
+                                    <h3>See Source</h3>
+                                    <i class="fa fa-github"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  `;
+
 projects.forEach((project) => {
   const card = document.createElement('div');
+
   card.innerHTML = `
                     <div class="card">
                         <div class="mask-group">
@@ -98,7 +149,10 @@ projects.forEach((project) => {
                         </div>
                     </div>
 `;
+
   cardsContainer.appendChild(card);
+
+  detailsContainer.appendChild(detailsPop);
 });
 
 menuIcon.addEventListener('click', () => {
@@ -118,6 +172,8 @@ for (let i = 0; i < seeProjBtns.length; i += 1) {
     projDetails.style.display = 'flex';
   });
 }
+
+const closeProjDetails = document.getElementById('close-details');
 
 closeProjDetails.addEventListener('click', () => {
   projDetails.style.display = 'none';
