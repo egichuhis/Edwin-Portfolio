@@ -48,7 +48,7 @@ const projects = [
   {
     title: 'Data Dashboard Healthcare',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    image: './imgs/Proj1.png',
+    image: './imgs/Proj2.png',
     technologies: ['Html', 'Bootstrap', 'Ruby'],
     linkLive: 'https://egichuhis.github.io/',
     linkSource: 'https://github.com/egichuhis/Edwin-Portfolio',
@@ -57,7 +57,7 @@ const projects = [
   {
     title: 'Website Portfolio',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    image: './imgs/Proj2.png',
+    image: './imgs/Proj3.png',
     technologies: ['Html', 'Bootstrap', 'Ruby'],
     linkLive: 'https://egichuhis.github.io/',
     linkSource: 'https://github.com/egichuhis/Edwin-Portfolio',
@@ -119,7 +119,7 @@ projects.forEach((project) => {
 
   card.innerHTML = `
                     <div class="card">
-                        <div class="mask-group">
+                        <div class="mask-group" style="background-image: url(${project.image});">
                             <div class="right-block">
                                 <div class="title">
                                     ${project.title}
