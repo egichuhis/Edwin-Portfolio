@@ -180,27 +180,29 @@ closeProjDetails.addEventListener('click', () => {
 });
 
 const form = document.getElementById('form');
-const nameInput = document.getElementById('name');
+const nameInput = document.getElementById('fname');
 const emailInput = document.getElementById('email');
-const messageInput = document.getElementById('message');
-const errorMessage = document.getElementById('error');
+const textAreaInput = document.getElementById('message');
+const errorElement = document.getElementById('error');
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', (event) => {
   const errorMessages = [];
 
-  e.preventDefault();
-  if (nameInput.value === '') {
-    errorMessages.push('Name is required');
-  } else if (emailInput.value === '') {
-    errorMessages.push('Email is required');
-  } else if (messageInput.value === '') {
-    errorMessages.push('Message is required');
+  if (nameInput.value.trim() === '') {
+    errorMessages.push('Name field is required');
+  } else if (emailInput.value.trim() === '') {
+    errorMessages.push('Email field is required');
+  } else if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorMessages.push('Email must be in lowercase');
+  } else if (textAreaInput.value.trim() === '') {
+    errorMessages.push('Message field is required');
   }
 
   if (errorMessages.length > 0) {
-    e.preventDefault();
-    errorMessage.textContent = errorMessages.join('. ');
+    event.preventDefault();
+
+    errorElement.textContent = errorMessages.join('. ');
   } else {
-    errorMessage.textContent = '';
+    errorElement.textContent = '';
   }
 });

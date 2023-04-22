@@ -83,6 +83,12 @@
   }
 }
 
+#error {
+  color: red;
+  order: 2;
+  text-align: center;
+}
+
 #close-menu {
   animation: glowing-light 2500ms 1000ms;
 }
