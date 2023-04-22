@@ -217,8 +217,6 @@
 .details-snapshoot {
   width: 100%;
   height: 210px;
-
-  /* background: url(./imgs/Snapshoot.png); */
   flex: none;
   order: 1;
   flex-grow: 0;
